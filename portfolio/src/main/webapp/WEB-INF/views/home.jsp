@@ -540,7 +540,81 @@
 	                            <!-- Element to pop up -->
 								<div class="element_to_pop_up" id="pop_up_2">
 								    <a class="b-close">x</a>
-								    Content of popup2
+									    <div class="row">
+									    		<div class="col-lg-6">
+										    		<img src="/resources/img/returncycle_main_full.png" alt="Image" style="width:100%;">
+									    		</div>
+									    		<div class="col-lg-6">
+									    			<div class="portfolio-contents-list" style="margin-top:0;">
+										    			<i class="fas fa-thumbtack portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">요약</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+										    			<table>
+										    				<tr>
+										    					<td>날짜 : 2021.12 ~ 2021.04</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://nveng.co.kr">
+										    							링크 : nveng.co.kr
+										    						</a>
+										    					</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://github.com/eastgermkim/newvVisionEng">
+										    							github : github.com/eastgermkim/newvVisionEng
+										    						</a>
+										    					</td>
+										    				</tr>
+										    			</table>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-info-circle portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">배경</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+									    				<p>
+										    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
+										    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
+										    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
+										    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
+									    				</p>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-file-code portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">기술 스택</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail">
+								    					<ul style="display:flex;list-style: none;padding-left: 0px; flex-wrap: wrap;">
+								    						<li class="hashtag">jQuery</li>
+								    						<li class="hashtag">Ajax</li>
+								    						<li class="hashtag">Java</li>
+								    						<li class="hashtag">SpringFrameWork</li>
+								    						<li class="hashtag">SpringSecurity</li>
+								    						<li class="hashtag">MariaDB</li>
+								    						<li class="hashtag">Apache Tomcat</li>
+								    						<li class="hashtag">Cafe24</li>
+								    					</ul>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-users portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">포지션, 역할</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+									    				<p>
+										    				풀스택 개발자 2명<br>
+										    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
+										    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
+									    				</p>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-search portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">후기</p>
+									    			</div>
+									    		</div>
+									    	</div>
 								</div>
                             </div>
                             
@@ -550,26 +624,184 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="/resources/img/portfolio-3.jpg" alt="Image">
+                                <img src="/resources/img/ku_winter.png" alt="Image">
                             </div>
                             <div class="portfolio-text">
                                 <h3>JavaScript quiz game</h3>
-                                <a class="btn" href="/resources/img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn my-button portfolio3">+</a>
+                                 <!-- Element to pop up -->
+								<div class="element_to_pop_up" id="pop_up_3">
+								    <a class="b-close">x</a>
+									    <div class="row">
+									    		<div class="col-lg-6">
+										    		<img src="/resources/img/ku_winter.png" alt="Image" style="width:100%;">
+									    		</div>
+									    		<div class="col-lg-6">
+									    			<div class="portfolio-contents-list" style="margin-top:0;">
+										    			<i class="fas fa-thumbtack portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">요약</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+										    			<table>
+										    				<tr>
+										    					<td>날짜 : 2021.12 ~ 2021.04</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://nveng.co.kr">
+										    							링크 : nveng.co.kr
+										    						</a>
+										    					</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://github.com/eastgermkim/newvVisionEng">
+										    							github : github.com/eastgermkim/newvVisionEng
+										    						</a>
+										    					</td>
+										    				</tr>
+										    			</table>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-info-circle portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">배경</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+									    				<p>
+										    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
+										    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
+										    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
+										    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
+									    				</p>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-file-code portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">기술 스택</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail">
+								    					<ul style="display:flex;list-style: none;padding-left: 0px; flex-wrap: wrap;">
+								    						<li class="hashtag">jQuery</li>
+								    						<li class="hashtag">Ajax</li>
+								    						<li class="hashtag">Java</li>
+								    						<li class="hashtag">SpringFrameWork</li>
+								    						<li class="hashtag">SpringSecurity</li>
+								    						<li class="hashtag">MariaDB</li>
+								    						<li class="hashtag">Apache Tomcat</li>
+								    						<li class="hashtag">Cafe24</li>
+								    					</ul>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-users portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">포지션, 역할</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+									    				<p>
+										    				풀스택 개발자 2명<br>
+										    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
+										    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
+									    				</p>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-search portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">후기</p>
+									    			</div>
+									    		</div>
+									    	</div>
+                            			</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="/resources/img/portfolio-4.jpg" alt="Image">
+                                <img src="/resources/img/ku_social.png" alt="Image">
                             </div>
                             <div class="portfolio-text">
                                 <h3>JavaScript drawing</h3>
                                 <a class="btn" href="/resources/img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                                  <!-- Element to pop up -->
+								<div class="element_to_pop_up" id="pop_up_4">
+								    <a class="b-close">x</a>
+									    <div class="row">
+									    		<div class="col-lg-6">
+										    		<img src="/resources/img/ku_social.png" alt="Image" style="width:100%;">
+									    		</div>
+									    		<div class="col-lg-6">
+									    			<div class="portfolio-contents-list" style="margin-top:0;">
+										    			<i class="fas fa-thumbtack portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">요약</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+										    			<table>
+										    				<tr>
+										    					<td>날짜 : 2021.12 ~ 2021.04</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://nveng.co.kr">
+										    							링크 : nveng.co.kr
+										    						</a>
+										    					</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://github.com/eastgermkim/newvVisionEng">
+										    							github : github.com/eastgermkim/newvVisionEng
+										    						</a>
+										    					</td>
+										    				</tr>
+										    			</table>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-info-circle portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">배경</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+									    				<p>
+										    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
+										    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
+										    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
+										    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
+									    				</p>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-file-code portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">기술 스택</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail">
+								    					<ul style="display:flex;list-style: none;padding-left: 0px; flex-wrap: wrap;">
+								    						<li class="hashtag">jQuery</li>
+								    						<li class="hashtag">Ajax</li>
+								    						<li class="hashtag">Java</li>
+								    						<li class="hashtag">SpringFrameWork</li>
+								    						<li class="hashtag">SpringSecurity</li>
+								    						<li class="hashtag">MariaDB</li>
+								    						<li class="hashtag">Apache Tomcat</li>
+								    						<li class="hashtag">Cafe24</li>
+								    					</ul>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-users portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">포지션, 역할</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+									    				<p>
+										    				풀스택 개발자 2명<br>
+										    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
+										    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
+									    				</p>
+									    			</div>
+									    			<div class="portfolio-contents-list">
+										    			<i class="fas fa-search portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">후기</p>
+									    			</div>
+									    		</div>
+									    	</div>
+                            			</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
                                 <img src="/resources/img/portfolio-5.jpg" alt="Image">
@@ -590,7 +822,7 @@
                                 <a class="btn" href="/resources/img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -673,6 +905,15 @@
             $('.portfolio2').bind('click', function(e) {
                 e.preventDefault();
                 $('#pop_up_2').bPopup({
+                   
+                });
+            });
+            
+         });
+        $(function() {
+            $('.portfolio3').bind('click', function(e) {
+                e.preventDefault();
+                $('#pop_up_3').bPopup({
                    
                 });
             });
