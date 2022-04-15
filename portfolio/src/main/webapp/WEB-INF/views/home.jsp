@@ -132,6 +132,10 @@
 		    border-radius: 0.5em;
 		}
 		
+		.portfolio .portfolio-text a.btn{
+			color:#fff;
+		}
+		
     </style>
     
 
@@ -520,6 +524,23 @@
 									    			<i class="fas fa-search portfolio-icon"></i>
 									    			<p class="portfolio-text font-kr">후기</p>
 								    			</div>
+								    			<div class="portfolio-contents-detail font-kr">
+								    				<p>
+									    				<strong style="font-weight:500;">'웹 페이지 개발 업무 프로세스를 구성하고 운영해보자!(개발자가 해야 하는 것은 코딩 만이 아니다)🤔'<br></strong>
+									    				&nbsp;이전 프로젝트(Returncycle)에선 학원에서 마감일이 정해줬기 때문에 팀원 개개인의 기여도가 천차만별이었다. 프로젝트가 끝나고 되돌아봤을 때, 주된 원인을 각자의 역량을 고려하지 못한 업무 분담과
+									    				목표 설정 그리고 커뮤니케이션의 부족이라고 생각했다.<br>
+									    				&nbsp;이 프로젝트(NewVisionENG)에선 여러 개발 회사 및 조직의 업무 프로세스를 보고 들은 것을 바탕으로  3가지 문서를 작성하자는 의견을 내게 되었다. 이 프로젝트가 끝낫을때도 돌이켜보면, 매우 긍정적인 효과가 아닐 수 없었다.<br><br>
+									    				1) 정식 제안서를 작성한다.<br>
+									    				2) 일일, 주간, 월간 목표 및 달성 수준을 개인/공동으로 나누어 작성한다.<br>
+									    				3) 개발 도중 발생한 문제를 공동으로 작성한다.<br>
+									    				<br>
+									    				&nbsp;가족 회사의 웹사이트를 제작한다 할 지라도 사이트의 필요성, 기대효과, 제작에 필요한 시간과 비용을 모두가 인지할 필요가 있었고 이에 따라 제안서의 내용에 맞춰 개발할 수 있었다.<sup>1)</sup>
+									    				&nbsp;제안서 내용에 맞춰 사이트의 구획을 나누어 월 단위로 목표를 정하고, 주마다 달성한 수준에 따른 피드백 및 코드 리뷰 그리고 매일 목표를 정하고 달성 수준을 체크했다.
+									    				 해당 목표를 달성하지 못하더라도 프로젝트 진행도를 매일 체크하게 되어 필요에 따라 시간적, 업무적 조절이 가능했다.<sup>2)</sup>
+									    				  또한 개발 중 발생하는 문제를 같이 해결하는 경우도 많았으나, 각자 해결한 경우도 존재했고 이 내용을 정리하여 서로 공유했다.
+									    				  직접 문제를 직면하진 않았어도 간접적으로 해결 과정을 알 수 있었으며 프로젝트 중반을 넘어선 서로 비슷한 케이스의 오류가 발생했을 때, 공유한 자료를 바탕으로 해결하게 되었다.<sup>3)</sup>
+								    				</p>
+								    			</div>
 								    		</div>
 								    	</div>
 								</div>
@@ -552,19 +573,19 @@
 									    			<div class="portfolio-contents-detail font-kr">
 										    			<table>
 										    				<tr>
-										    					<td>날짜 : 2021.12 ~ 2021.04</td>
+										    					<td>날짜 : 2020.10 ~ 2021.01</td>
 										    				</tr>
 										    				<tr>
 										    					<td>
-										    						<a href="https://nveng.co.kr">
-										    							링크 : nveng.co.kr
+										    						<a href="">
+										    							링크 : 구현예정
 										    						</a>
 										    					</td>
 										    				</tr>
 										    				<tr>
 										    					<td>
-										    						<a href="https://github.com/eastgermkim/newvVisionEng">
-										    							github : github.com/eastgermkim/newvVisionEng
+										    						<a href="https://svn.riouxsvn.com/returncycle">
+										    							SVN : https://svn.riouxsvn.com/returncycle
 										    						</a>
 										    					</td>
 										    				</tr>
@@ -718,7 +739,7 @@
                             </div>
                             <div class="portfolio-text">
                                 <h3>JavaScript drawing</h3>
-                                <a class="btn" href="/resources/img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                                <a class="btn my-button portfolio4">+</a>
                                   <!-- Element to pop up -->
 								<div class="element_to_pop_up" id="pop_up_4">
 								    <a class="b-close">x</a>
@@ -833,23 +854,17 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="footer-info">
-                        <h2>Kate Winslet</h2>
-                        <h3>123 Street, New York, USA</h3>
+                        <h2>eastgermkim</h2>
                         <div class="footer-menu">
-                            <p>+012 345 67890</p>
-                            <p>info@example.com</p>
+                            <p>+82 10-9082-0966</p>
+                            <p>eastgerm93@gmail.com</p>
                         </div>
                         <div class="footer-social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="container copyright">
-                    <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p>&copy; <a href="#">eastgermkim portfolio</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
@@ -914,6 +929,16 @@
             $('.portfolio3').bind('click', function(e) {
                 e.preventDefault();
                 $('#pop_up_3').bPopup({
+                   
+                });
+            });
+            
+         });
+        
+        $(function() {
+            $('.portfolio4').bind('click', function(e) {
+                e.preventDefault();
+                $('#pop_up_4').bPopup({
                    
                 });
             });
