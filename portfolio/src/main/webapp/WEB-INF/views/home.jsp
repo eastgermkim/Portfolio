@@ -23,6 +23,9 @@
 
         <!-- Template Stylesheet -->
         <link href="/resources/css/style.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
     </head>
     
     <style>
@@ -135,6 +138,15 @@
 		.portfolio .portfolio-text a.btn{
 			color:#fff;
 		}
+		
+		.swiper-button-next:after, .swiper-button-prev:after {
+			color: #EF233C;
+		}
+		
+		.swiper-pagination-bullet{
+			color: #EF233C;
+		}
+		
 		
     </style>
     
@@ -451,7 +463,13 @@
 								<!-- Element to pop up -->
 								<div class="element_to_pop_up" id="pop_up_1">
 								    <a class="b-close">x</a>
-								    	<div class="row">
+								    
+								    <!--  -->
+								     <!-- Swiper -->
+								    <div class="swiper-container mySwiper">
+								      <div class="swiper-wrapper">
+								        <div class="swiper-slide">
+								        	<div class="row">
 								    		<div class="col-lg-6">
 									    		<img src="/resources/img/nveng_main_full.png" alt="Image" style="width:100%;">
 								    		</div>
@@ -543,6 +561,108 @@
 								    			</div>
 								    		</div>
 								    	</div>
+								        </div>
+								        <div class="swiper-slide">
+								        <div class="row">
+								    		<div class="col-lg-6">
+									    		<img src="/resources/img/nveng_main_full.png" alt="Image" style="width:100%;">
+								    		</div>
+								    		<div class="col-lg-6">
+								    			<div class="portfolio-contents-list" style="margin-top:0;">
+									    			<i class="fas fa-thumbtack portfolio-icon"></i>
+									    			<p class="portfolio-text font-kr">요약</p>
+								    			</div>
+								    			<div class="portfolio-contents-detail font-kr">
+									    			<table>
+									    				<tr>
+									    					<td>날짜 : 2021.12 ~ 2021.04</td>
+									    				</tr>
+									    				<tr>
+									    					<td>
+									    						<a href="https://nveng.co.kr">
+									    							링크 : nveng.co.kr
+									    						</a>
+									    					</td>
+									    				</tr>
+									    				<tr>
+									    					<td>
+									    						<a href="https://github.com/eastgermkim/newvVisionEng">
+									    							github : github.com/eastgermkim/newvVisionEng
+									    						</a>
+									    					</td>
+									    				</tr>
+									    			</table>
+								    			</div>
+								    			<div class="portfolio-contents-list">
+									    			<i class="fas fa-info-circle portfolio-icon"></i>
+									    			<p class="portfolio-text font-kr">배경</p>
+								    			</div>
+								    			<div class="portfolio-contents-detail font-kr">
+								    				<p>
+									    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
+									    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
+									    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
+									    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
+								    				</p>
+								    			</div>
+								    			<div class="portfolio-contents-list">
+									    			<i class="fas fa-file-code portfolio-icon"></i>
+									    			<p class="portfolio-text font-kr">기술 스택</p>
+								    			</div>
+								    			<div class="portfolio-contents-detail">
+							    					<ul style="display:flex;list-style: none;padding-left: 0px; flex-wrap: wrap;">
+							    						<li class="hashtag">jQuery</li>
+							    						<li class="hashtag">Ajax</li>
+							    						<li class="hashtag">Java</li>
+							    						<li class="hashtag">SpringFrameWork</li>
+							    						<li class="hashtag">SpringSecurity</li>
+							    						<li class="hashtag">MariaDB</li>
+							    						<li class="hashtag">Apache Tomcat</li>
+							    						<li class="hashtag">Cafe24</li>
+							    					</ul>
+								    			</div>
+								    			<div class="portfolio-contents-list">
+									    			<i class="fas fa-users portfolio-icon"></i>
+									    			<p class="portfolio-text font-kr">포지션, 역할</p>
+								    			</div>
+								    			<div class="portfolio-contents-detail font-kr">
+								    				<p>
+									    				풀스택 개발자 2명<br>
+									    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
+									    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
+								    				</p>
+								    			</div>
+								    			<div class="portfolio-contents-list">
+									    			<i class="fas fa-search portfolio-icon"></i>
+									    			<p class="portfolio-text font-kr">후기</p>
+								    			</div>
+								    			<div class="portfolio-contents-detail font-kr">
+								    				<p>
+									    				<strong style="font-weight:500;">'웹 페이지 개발 업무 프로세스를 구성하고 운영해보자!(개발자가 해야 하는 것은 코딩 만이 아니다)🤔'<br></strong>
+									    				&nbsp;이전 프로젝트(Returncycle)에선 학원에서 마감일이 정해줬기 때문에 팀원 개개인의 기여도가 천차만별이었다. 프로젝트가 끝나고 되돌아봤을 때, 주된 원인을 각자의 역량을 고려하지 못한 업무 분담과
+									    				목표 설정 그리고 커뮤니케이션의 부족이라고 생각했다.<br>
+									    				&nbsp;이 프로젝트(NewVisionENG)에선 여러 개발 회사 및 조직의 업무 프로세스를 보고 들은 것을 바탕으로  3가지 문서를 작성하자는 의견을 내게 되었다. 이 프로젝트가 끝낫을때도 돌이켜보면, 매우 긍정적인 효과가 아닐 수 없었다.<br><br>
+									    				1) 정식 제안서를 작성한다.<br>
+									    				2) 일일, 주간, 월간 목표 및 달성 수준을 개인/공동으로 나누어 작성한다.<br>
+									    				3) 개발 도중 발생한 문제를 공동으로 작성한다.<br>
+									    				<br>
+									    				&nbsp;가족 회사의 웹사이트를 제작한다 할 지라도 사이트의 필요성, 기대효과, 제작에 필요한 시간과 비용을 모두가 인지할 필요가 있었고 이에 따라 제안서의 내용에 맞춰 개발할 수 있었다.<sup>1)</sup>
+									    				&nbsp;제안서 내용에 맞춰 사이트의 구획을 나누어 월 단위로 목표를 정하고, 주마다 달성한 수준에 따른 피드백 및 코드 리뷰 그리고 매일 목표를 정하고 달성 수준을 체크했다.
+									    				 해당 목표를 달성하지 못하더라도 프로젝트 진행도를 매일 체크하게 되어 필요에 따라 시간적, 업무적 조절이 가능했다.<sup>2)</sup>
+									    				  또한 개발 중 발생하는 문제를 같이 해결하는 경우도 많았으나, 각자 해결한 경우도 존재했고 이 내용을 정리하여 서로 공유했다.
+									    				  직접 문제를 직면하진 않았어도 간접적으로 해결 과정을 알 수 있었으며 프로젝트 중반을 넘어선 서로 비슷한 케이스의 오류가 발생했을 때, 공유한 자료를 바탕으로 해결하게 되었다.<sup>3)</sup>
+								    				</p>
+								    			</div>
+								    		</div>
+								    	</div>
+								        </div>
+								      </div>
+								      <div class="swiper-button-next"></div>
+								      <div class="swiper-button-prev"></div>
+								      <div class="swiper-pagination"></div>
+								    </div>
+								    <!--  -->
+								    
 								</div>
                             </div>
                             
@@ -899,6 +1019,9 @@
 
         <!-- Template Javascript -->
         <script src="/resources/js/main.js"></script>
+        
+        <!-- Swiper -->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </body>
     <script>
     (function($) {
@@ -946,4 +1069,21 @@
          });
      })(jQuery);
     </script>
+    
+     <script>
+     var swiper = new Swiper(".mySwiper", {
+       spaceBetween: 500,
+       slidesPerView:1,
+       centeredSlides: true,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev",
+       },
+     });
+
+   </script>
 </html>
