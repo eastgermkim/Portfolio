@@ -445,8 +445,8 @@
                         <ul id="portfolio-filter">
                             <li data-filter="*" class="filter-active">All</li>
                             <li data-filter=".filter-1">Web development</li>
-                            <li data-filter=".filter-2">Mobile Apps</li>
-                            <li data-filter=".filter-3">Game Dev</li>
+                            <li data-filter=".filter-2">Acrivity</li>
+                            <li data-filter=".filter-3">ETC</li>
                         </ul>
                     </div>
                 </div>
@@ -621,7 +621,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
                                 <img src="/resources/img/returncycle.png" alt="Image">
@@ -740,7 +740,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
                                 <img src="/resources/img/ku_winter.png" alt="Image">
@@ -806,7 +806,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
                                 <img src="/resources/img/ku_social.png" alt="Image">
