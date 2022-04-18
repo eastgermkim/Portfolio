@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-        <title>DevFolio - Developer Portfolio Template</title>
+        <title>Eastgermkim's Portfolio</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
@@ -418,7 +418,7 @@
                         <div class="timeline-text">
                             <div class="timeline-date">2020.01</div>
                             <h2>건국대학교 사회적 문제해결형 창업캠프</h2>
-                            <h4>팀장/ 우수상</h4>
+                            <h4>팀장/ 장려상</h4>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
