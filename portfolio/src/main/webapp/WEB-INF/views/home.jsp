@@ -1017,4 +1017,10 @@
      });
 
    </script>
+   
+   <script>
+   if(window.location.href == 'http://eastgerm.com/'){
+	   window.location.href='https://eastgerm.com/';
+   }
+   </script>
 </html>
