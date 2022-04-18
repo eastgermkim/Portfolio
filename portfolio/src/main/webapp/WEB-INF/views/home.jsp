@@ -144,7 +144,7 @@
 		}
 		
 		.swiper-pagination-bullet{
-			color: #EF233C;
+			background: #EF233C;
 		}
 		
 		
@@ -437,8 +437,8 @@
         <div class="portfolio" id="portfolio">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Portfolio</p>
-                    <h2>My Excellent Portfolio</h2>
+                    <p>Experience</p>
+                    <h2>My Portfolio</h2>
                 </div>
                 <div class="row">
                     <div class="col-12">
@@ -565,12 +565,19 @@
 								        <div class="swiper-slide">
 								        <div class="row">
 								    		<div class="col-lg-6">
-									    		<img src="/resources/img/nveng_main_full.png" alt="Image" style="width:100%;">
+									    		<div class="portfolio-contents-list" style="margin-top:0;">
+									    			<p class="portfolio-text font-kr">
+									    			Project Issues(from start to finish)<br>
+									    			</p>
+									    			<p>
+										    			<br>페이지 컨텐츠 부족
+										    			<br>사이트를 관리할 수 있는 별도의 인력 없음
+									    			</p>
+									    		</div>
 								    		</div>
 								    		<div class="col-lg-6">
 								    			<div class="portfolio-contents-list" style="margin-top:0;">
-									    			<i class="fas fa-thumbtack portfolio-icon"></i>
-									    			<p class="portfolio-text font-kr">요약</p>
+									    			<p class="portfolio-text font-kr">Project Issues(developer's)</p>
 								    			</div>
 								    			<div class="portfolio-contents-detail font-kr">
 									    			<table>
@@ -596,62 +603,6 @@
 								    			<div class="portfolio-contents-list">
 									    			<i class="fas fa-info-circle portfolio-icon"></i>
 									    			<p class="portfolio-text font-kr">배경</p>
-								    			</div>
-								    			<div class="portfolio-contents-detail font-kr">
-								    				<p>
-									    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
-									    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
-									    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
-									    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
-								    				</p>
-								    			</div>
-								    			<div class="portfolio-contents-list">
-									    			<i class="fas fa-file-code portfolio-icon"></i>
-									    			<p class="portfolio-text font-kr">기술 스택</p>
-								    			</div>
-								    			<div class="portfolio-contents-detail">
-							    					<ul style="display:flex;list-style: none;padding-left: 0px; flex-wrap: wrap;">
-							    						<li class="hashtag">jQuery</li>
-							    						<li class="hashtag">Ajax</li>
-							    						<li class="hashtag">Java</li>
-							    						<li class="hashtag">SpringFrameWork</li>
-							    						<li class="hashtag">SpringSecurity</li>
-							    						<li class="hashtag">MariaDB</li>
-							    						<li class="hashtag">Apache Tomcat</li>
-							    						<li class="hashtag">Cafe24</li>
-							    					</ul>
-								    			</div>
-								    			<div class="portfolio-contents-list">
-									    			<i class="fas fa-users portfolio-icon"></i>
-									    			<p class="portfolio-text font-kr">포지션, 역할</p>
-								    			</div>
-								    			<div class="portfolio-contents-detail font-kr">
-								    				<p>
-									    				풀스택 개발자 2명<br>
-									    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
-									    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
-								    				</p>
-								    			</div>
-								    			<div class="portfolio-contents-list">
-									    			<i class="fas fa-search portfolio-icon"></i>
-									    			<p class="portfolio-text font-kr">후기</p>
-								    			</div>
-								    			<div class="portfolio-contents-detail font-kr">
-								    				<p>
-									    				<strong style="font-weight:500;">'웹 페이지 개발 업무 프로세스를 구성하고 운영해보자!(개발자가 해야 하는 것은 코딩 만이 아니다)🤔'<br></strong>
-									    				&nbsp;이전 프로젝트(Returncycle)에선 학원에서 마감일이 정해줬기 때문에 팀원 개개인의 기여도가 천차만별이었다. 프로젝트가 끝나고 되돌아봤을 때, 주된 원인을 각자의 역량을 고려하지 못한 업무 분담과
-									    				목표 설정 그리고 커뮤니케이션의 부족이라고 생각했다.<br>
-									    				&nbsp;이 프로젝트(NewVisionENG)에선 여러 개발 회사 및 조직의 업무 프로세스를 보고 들은 것을 바탕으로  3가지 문서를 작성하자는 의견을 내게 되었다. 이 프로젝트가 끝낫을때도 돌이켜보면, 매우 긍정적인 효과가 아닐 수 없었다.<br><br>
-									    				1) 정식 제안서를 작성한다.<br>
-									    				2) 일일, 주간, 월간 목표 및 달성 수준을 개인/공동으로 나누어 작성한다.<br>
-									    				3) 개발 도중 발생한 문제를 공동으로 작성한다.<br>
-									    				<br>
-									    				&nbsp;가족 회사의 웹사이트를 제작한다 할 지라도 사이트의 필요성, 기대효과, 제작에 필요한 시간과 비용을 모두가 인지할 필요가 있었고 이에 따라 제안서의 내용에 맞춰 개발할 수 있었다.<sup>1)</sup>
-									    				&nbsp;제안서 내용에 맞춰 사이트의 구획을 나누어 월 단위로 목표를 정하고, 주마다 달성한 수준에 따른 피드백 및 코드 리뷰 그리고 매일 목표를 정하고 달성 수준을 체크했다.
-									    				 해당 목표를 달성하지 못하더라도 프로젝트 진행도를 매일 체크하게 되어 필요에 따라 시간적, 업무적 조절이 가능했다.<sup>2)</sup>
-									    				  또한 개발 중 발생하는 문제를 같이 해결하는 경우도 많았으나, 각자 해결한 경우도 존재했고 이 내용을 정리하여 서로 공유했다.
-									    				  직접 문제를 직면하진 않았어도 간접적으로 해결 과정을 알 수 있었으며 프로젝트 중반을 넘어선 서로 비슷한 케이스의 오류가 발생했을 때, 공유한 자료를 바탕으로 해결하게 되었다.<sup>3)</sup>
-								    				</p>
 								    			</div>
 								    		</div>
 								    	</div>
@@ -698,7 +649,7 @@
 										    				<tr>
 										    					<td>
 										    						<a href="">
-										    							링크 : 구현예정
+										    							링크 : 미구현
 										    						</a>
 										    					</td>
 										    				</tr>
@@ -706,6 +657,20 @@
 										    					<td>
 										    						<a href="https://svn.riouxsvn.com/returncycle">
 										    							SVN : https://svn.riouxsvn.com/returncycle
+										    						</a>
+										    					</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://github.com/eastgermkim/returncycle">
+										    							github : https://github.com/eastgermkim/returncycle
+										    						</a>
+										    					</td>
+										    				</tr>
+										    				<tr>
+										    					<td>
+										    						<a href="https://drive.google.com/file/d/1h6HrSPP77_8w3GAkNZZywmzqWhoVwt07/view?usp=sharing">
+										    							자료링크 : https://drive.google.com/file/d/1h6HrSPP77_8w3GAkNZZywmzqWhoVwt07/view?usp=sharing
 										    						</a>
 										    					</td>
 										    				</tr>
@@ -717,10 +682,11 @@
 									    			</div>
 									    			<div class="portfolio-contents-detail font-kr">
 									    				<p>
-										    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
-										    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
-										    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
-										    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
+										    				&nbsp;창업 캠프 이후로 팀원들의 각기 다른 사정이 있었고, 흩어지게 되었습니다.
+										    				 하지만 사회적 문제에 대한 관심도 높아지게 되었고 이전에 가장 필요한 기술은 코딩이라고 생각했습니다.
+										    				 개발자를 따로 구하는 방법도 있었지만, 향후 커뮤니케이션과 비용을 고려했을 때, 직접 배워야 한다고 생각했고 학원을 등록해 코딩을 접하게 되는 첫 시작이 되었습니다.
+										    				 학원에서 팀 프로젝트로 페이지를 만드는 과정에서 사회적 문제로 창업을 준비하던 아이디어를 제시해 페이지를 제작하게 되었고
+										    				 이를 시작으로 프론트, 백엔드 전부에 흥미를 느껴 공부하고 배워나가는 과정에 있습니다.
 									    				</p>
 									    			</div>
 									    			<div class="portfolio-contents-list">
@@ -732,11 +698,9 @@
 								    						<li class="hashtag">jQuery</li>
 								    						<li class="hashtag">Ajax</li>
 								    						<li class="hashtag">Java</li>
-								    						<li class="hashtag">SpringFrameWork</li>
-								    						<li class="hashtag">SpringSecurity</li>
-								    						<li class="hashtag">MariaDB</li>
+								    						<li class="hashtag">Spring MVC2</li>
+								    						<li class="hashtag">Oracle</li>
 								    						<li class="hashtag">Apache Tomcat</li>
-								    						<li class="hashtag">Cafe24</li>
 								    					</ul>
 									    			</div>
 									    			<div class="portfolio-contents-list">
@@ -745,15 +709,29 @@
 									    			</div>
 									    			<div class="portfolio-contents-detail font-kr">
 									    				<p>
-										    				풀스택 개발자 2명<br>
-										    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
-										    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
+										    				백엔드 : 재활용품 수거 신청, 수거원 수거목록 페이지 AJAX로 불러오기, 회원정보 수정, 마이페이지, 물품 교환, 관리자 페이지
+										    				<br>
+										    				프론트 : 메인페이지, 수거 신청페이지, 수거원 페이지, 마이페이지 , 정보 수정 페이지, 관리자 페이지
 									    				</p>
 									    			</div>
 									    			<div class="portfolio-contents-list">
 										    			<i class="fas fa-search portfolio-icon"></i>
 										    			<p class="portfolio-text font-kr">후기</p>
 									    			</div>
+									    			<div class="portfolio-contents-detail font-kr">
+								    				<p>
+									    				<strong style="font-weight:500;">'캠프부터 가져온 사회적 문제 아이디어를 변화시켜 사이트로 만들어 보자😁'<br></strong>
+									    				&nbsp; 개발 프로젝트 팀원들이 아이디어를 지지해준 덕에 페이지를 만들어 실질적인 모델을 어느정도 구현해 볼 수 있었다. 
+									    				 또한 이 과정에서 아이디어의 한계점도 발견하게 되었고, 오히려 개발자로서의 흥미를 느끼게 해준 계기가 되었다.
+									    				 <br>
+									    				첫 개발 프로젝트였기 때문에 가벼운 이슈가 생겨도 상당히 어려운 문제로 생각되기 쉬웠고 막상 찾아보면 어이없게 쉬운 문제였다.
+														그중 하나는 ajax 데이터 통신이었는데, 수거원이 보는 페이지는 ajax로 데이터를 불러오도록 설계하는 과정에서 dataType을 json으로 해야 하는 text로 설정해 데이터가 받아와지지 않았다.
+														원인으로 코드를 분석하지 않은 채, 구글에 있던 ajax 코드를 그대로 붙여 넣은 것이라 생각하게 되었고 이후로는 코드를 참고하는 과정에서 분석을 먼저 하려는 습관을 갖게 되었다.
+														<br>
+														이 프로젝트에서 프론트엔드, 백엔드의 기초와 그동안 배운 웹 개발 지식을 활용해 볼 수 있어 좋은 개발의 첫걸음이 되었던 것 같다.
+									    				 
+								    				</p>
+								    			</div>
 									    		</div>
 									    	</div>
 								</div>
@@ -767,8 +745,8 @@
                             <div class="portfolio-img">
                                 <img src="/resources/img/ku_winter.png" alt="Image">
                             </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript quiz game</h3>
+                            <div class="portfolio-text font-kr">
+                                <h3 style="font-weight:400">스타트업 윈터캠프</h3>
                                 <a class="btn my-button portfolio3">+</a>
                                  <!-- Element to pop up -->
 								<div class="element_to_pop_up" id="pop_up_3">
@@ -785,21 +763,7 @@
 									    			<div class="portfolio-contents-detail font-kr">
 										    			<table>
 										    				<tr>
-										    					<td>날짜 : 2021.12 ~ 2021.04</td>
-										    				</tr>
-										    				<tr>
-										    					<td>
-										    						<a href="https://nveng.co.kr">
-										    							링크 : nveng.co.kr
-										    						</a>
-										    					</td>
-										    				</tr>
-										    				<tr>
-										    					<td>
-										    						<a href="https://github.com/eastgermkim/newvVisionEng">
-										    							github : github.com/eastgermkim/newvVisionEng
-										    						</a>
-										    					</td>
+										    					<td>날짜 : 2020.01</td>
 										    				</tr>
 										    			</table>
 									    			</div>
@@ -809,42 +773,32 @@
 									    			</div>
 									    			<div class="portfolio-contents-detail font-kr">
 									    				<p>
-										    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
-										    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
-										    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
-										    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
+										    				건국대학교에서 주관해 아이디어, 사업의 현실성, 자금 구조, BM, 시장분석 등 실현 가능성을 토대로 하여 선배 창업자들이 객관적으로 평가하는 캠프입니다.
+										    				<br>본 캠프에서 'wabin'이라는 프로젝트로 팀을 구성해 대상이라는 결과를 받았습니다.
 									    				</p>
 									    			</div>
 									    			<div class="portfolio-contents-list">
-										    			<i class="fas fa-file-code portfolio-icon"></i>
-										    			<p class="portfolio-text font-kr">기술 스택</p>
+										    			<i class="fas fa-tags portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">태그</p>
 									    			</div>
 									    			<div class="portfolio-contents-detail">
 								    					<ul style="display:flex;list-style: none;padding-left: 0px; flex-wrap: wrap;">
-								    						<li class="hashtag">jQuery</li>
-								    						<li class="hashtag">Ajax</li>
-								    						<li class="hashtag">Java</li>
-								    						<li class="hashtag">SpringFrameWork</li>
-								    						<li class="hashtag">SpringSecurity</li>
-								    						<li class="hashtag">MariaDB</li>
-								    						<li class="hashtag">Apache Tomcat</li>
-								    						<li class="hashtag">Cafe24</li>
+								    						<li class="hashtag">첫 창업캠프</li>
+								    						<li class="hashtag">스타트업</li>
+								    						<li class="hashtag">대상</li>
+								    						<li class="hashtag">팀장</li>
+								    						<li class="hashtag">발표, PPT 제작</li>
 								    					</ul>
-									    			</div>
-									    			<div class="portfolio-contents-list">
-										    			<i class="fas fa-users portfolio-icon"></i>
-										    			<p class="portfolio-text font-kr">포지션, 역할</p>
-									    			</div>
-									    			<div class="portfolio-contents-detail font-kr">
-									    				<p>
-										    				풀스택 개발자 2명<br>
-										    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
-										    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
-									    				</p>
 									    			</div>
 									    			<div class="portfolio-contents-list">
 										    			<i class="fas fa-search portfolio-icon"></i>
 										    			<p class="portfolio-text font-kr">후기</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail">
+									    				<p>
+									    				&nbsp; 창업에 뜻을 품게 되고 처음으로 참가했던 대외활동 이었고, 좋은 팀원들과 훌륭한 멘토를 만나 뿌듯한 결과물을 얻을 수 있었다.
+									    				 제한된 시간 안에 각자 다른 아이디어를 가진 사람들이 모여 하나의 주제로 통합되기 어려웠지만, 시간을 정해놓고 토의하면서 다른 팀보다 일찍 프로젝트를 시작하게 되면서 완성도 있는 결과물이 나왔던 것 같다. 
+									    				</p>
 									    			</div>
 									    		</div>
 									    	</div>
@@ -857,8 +811,8 @@
                             <div class="portfolio-img">
                                 <img src="/resources/img/ku_social.png" alt="Image">
                             </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript drawing</h3>
+                            <div class="portfolio-text font-kr">
+                                <h3 style="font-weight:400">사회적 문제해결형 창업캠프</h3>
                                 <a class="btn my-button portfolio4">+</a>
                                   <!-- Element to pop up -->
 								<div class="element_to_pop_up" id="pop_up_4">
@@ -875,21 +829,7 @@
 									    			<div class="portfolio-contents-detail font-kr">
 										    			<table>
 										    				<tr>
-										    					<td>날짜 : 2021.12 ~ 2021.04</td>
-										    				</tr>
-										    				<tr>
-										    					<td>
-										    						<a href="https://nveng.co.kr">
-										    							링크 : nveng.co.kr
-										    						</a>
-										    					</td>
-										    				</tr>
-										    				<tr>
-										    					<td>
-										    						<a href="https://github.com/eastgermkim/newvVisionEng">
-										    							github : github.com/eastgermkim/newvVisionEng
-										    						</a>
-										    					</td>
+										    					<td>날짜 : 2020.01</td>
 										    				</tr>
 										    			</table>
 									    			</div>
@@ -899,42 +839,33 @@
 									    			</div>
 									    			<div class="portfolio-contents-detail font-kr">
 									    				<p>
-										    				어머니와 형이 운영하는 회사의 웹사이트를 친구와 함께 제작하였습니다.
-										    				&nbsp;직접 공부한 분야로 가족이 직접 경험할 수 있는 결과물을 만들어 냈다는 뿌듯함을 느낄 수 있는 프로젝트 였습니다.
-										    				&nbsp;웹 사이트 제안서, 디자인, 프론트 개발 그리고 백 엔드 개발까지 종합적으로 경험할 수 있는 기회가 되었습니다.
-										    				&nbsp;처음으로 Spring Framework를 이용하고 https로 호스팅하게 된 프로젝트이며, 사용자를 위한 관리자 기능에 공을 들인 프로젝트 입니다.
+										    				건국대학교 와 창업 컨설팅 기업 언더독스에서 주관해 아이디어, 사업의 현실성, 자금 구조, BM, 시장분석 등 실현 가능성을 토대로 하여 선배 창업자들이 객관적으로 평가하는 캠프입니다.
+										    				<br>본 캠프에선 이전 스타트업 윈터캠프 팀 그대로 팀을 구성해 장려상이라는 결과를 받았습니다.
 									    				</p>
 									    			</div>
 									    			<div class="portfolio-contents-list">
-										    			<i class="fas fa-file-code portfolio-icon"></i>
-										    			<p class="portfolio-text font-kr">기술 스택</p>
+										    			<i class="fas fa-tags portfolio-icon"></i>
+										    			<p class="portfolio-text font-kr">태그</p>
 									    			</div>
 									    			<div class="portfolio-contents-detail">
 								    					<ul style="display:flex;list-style: none;padding-left: 0px; flex-wrap: wrap;">
-								    						<li class="hashtag">jQuery</li>
-								    						<li class="hashtag">Ajax</li>
-								    						<li class="hashtag">Java</li>
-								    						<li class="hashtag">SpringFrameWork</li>
-								    						<li class="hashtag">SpringSecurity</li>
-								    						<li class="hashtag">MariaDB</li>
-								    						<li class="hashtag">Apache Tomcat</li>
-								    						<li class="hashtag">Cafe24</li>
+								    						<li class="hashtag">창업캠프</li>
+								    						<li class="hashtag">사회적 문제</li>
+								    						<li class="hashtag">장려상</li>
+								    						<li class="hashtag">팀장</li>
+								    						<li class="hashtag">갤러리워크</li>
+								    						<li class="hashtag">모의투자</li>
 								    					</ul>
-									    			</div>
-									    			<div class="portfolio-contents-list">
-										    			<i class="fas fa-users portfolio-icon"></i>
-										    			<p class="portfolio-text font-kr">포지션, 역할</p>
-									    			</div>
-									    			<div class="portfolio-contents-detail font-kr">
-									    				<p>
-										    				풀스택 개발자 2명<br>
-										    				&nbsp;풀스택 개발자라고 말하기엔 부족한 소양이지만 해당 프로젝트에서 백엔드 개발 40%, 프론트 개발 60%를 담당하여 풀스택 개발자의 역할을 하였습니다.
-										    				&nbsp;본 사이트의 사업 분야가 웹사이트가 굳이 필요 없었지만, 직접 필요성과 기대효과 그리고 예산을 문서로 작성하여 제안서를 쓰고 발표해 PM적인 일도 겸 하였습니다. 
-									    				</p>
 									    			</div>
 									    			<div class="portfolio-contents-list">
 										    			<i class="fas fa-search portfolio-icon"></i>
 										    			<p class="portfolio-text font-kr">후기</p>
+									    			</div>
+									    			<div class="portfolio-contents-detail">
+									    				<p>
+									    				&nbsp; 이전 팀원들과 같이 우리의 아이디어가 다른 사회적 문제와 비교했을 때, 경쟁력이 있는지 알고 싶었다.
+														생각보다 사회적 문제를 창의적인 아이디어와 방법으로 해결하기 위해 비교적 오래전부터 준비한 팀들이 많았고 프로젝트의 부족한 점을 배울 수 있었다. 
+									    				</p>
 									    			</div>
 									    		</div>
 									    	</div>
