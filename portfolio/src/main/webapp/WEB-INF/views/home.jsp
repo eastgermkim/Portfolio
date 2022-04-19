@@ -147,7 +147,26 @@
 			background: #EF233C;
 		}
 		
+		ol.issues {
+		    font-size: 1.25em;
+		}
 		
+		li.issue {
+		    font-weight: 400;
+		}
+		
+		.issue::marker{
+			/* font-weight:500; */
+		}
+		
+		.issue-detail{
+			display:flex;
+			margin-bottom:1em;
+		}
+		
+		strong.solution{
+			color: #ef233c;			
+		}
     </style>
     
 
@@ -226,12 +245,10 @@
                             </div>
                             <div class="about-text font-kr">
                                 <p>
-                             		안녕하세요. 도전을 마다하지 않는 개발자입니다.
-                             		창업을 위해 웹 백엔드 개발을 배웠고, 나의 아이디어를 웹에서 스스로 실현시킬 수 있는 실력있는 개발자가 되는 것을 목표로 하고 있습니다.
+                             		&nbsp;안녕하세요. 도전을 좋아하는 개발자입니다. 창업을 위해 웹 백엔드 개발을 배웠고, 나의 아이디어를 웹에서 스스로 실현시킬 수 있는 실력있는 개발자가 되는 것을 목표로 하고 있습니다.
+                             		 Backend, Frontend 뿐 만 아니라 그 동안의 웹이 아닌 프로젝트, 디자인 등의 성과물을 기록하려 합니다.
                              		<br>
-                             		웹 Backend, Frontend 뿐 만 아니라 그 동안의 웹이 아닌 프로젝트, 디자인 등의 성과물을 기록하는 페이지입니다.
-                             		<br>
-                             		문의 하실것이 있다면, 언제든 메일이나 문자 연락을 주시면 확인하는대로 답변해드리겠습니다. 감사합니다!😁
+                             		&nbsp;문의 하실것이 있다면, 언제든 메일이나 문자 연락을 주시면 확인하는대로 답변해드리겠습니다. 감사합니다!😁
                                 </p>
                                 <table class="profile">
                                 	<tr>
@@ -262,10 +279,10 @@
                                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="skill-name">
-                                    <p>Design</p><p>70%</p>
+                                    <p>Design</p><p>60%</p>
                                 </div>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="skill-name">
                                     <p>Project management</p><p>65%</p>
@@ -566,43 +583,62 @@
 								        <div class="row">
 								    		<div class="col-lg-6">
 									    		<div class="portfolio-contents-list" style="margin-top:0;">
-									    			<p class="portfolio-text font-kr">
-									    			Project Issues(from start to finish)<br>
-									    			</p>
-									    			<p>
-										    			<br>페이지 컨텐츠 부족
-										    			<br>사이트를 관리할 수 있는 별도의 인력 없음
-									    			</p>
+									    			<i class="fas fa-check portfolio-icon"></i>
+									    			<p class="portfolio-text font-kr">Project Issues(from start to finish)</p>
 									    		</div>
+									    		<div class="portfolio-contents-detail font-kr">
+								    				<ol class="issues">
+								    					<li class="issue">페이지 내 쓸 수 있는 자료 부족</li>
+								    					<p><strong class="solution">SOLUTION)</strong> 백엔드 개발자 2명으로 시작한 프로젝트로 누군가는 디자인과 프론트를 조금 더 다뤄야 했다.
+								    					백엔드 뿐 만 아니라 프론트에도 관심이 있었고 PPT 디자인 프리랜서 경험도 있었기 때문에 직접 컨텐츠를 디자인하고 제작했다.
+								    					</p>
+								    					<div class="issue-detail">
+									    					<img src="/resources/img/newvision-pf1.png" alt="Image" style="width:50%;">
+									    					<img src="/resources/img/newvision-pf2.png" alt="Image" style="width:50%;">
+								    					</div>
+								    					<li class="issue">사이트 제작 완료 후 이를 관리할 수 있는 별도의 인력 없음</li>
+								    					<p><strong class="solution">SOLUTION)</strong>
+								    					프로젝트 초기 기획에서 일반 admin 아이디로도 쉽게 사이트의 필요 부분을 수정할 수 있도록 설계했다.
+								    					</p>
+								    					<div class="issue-detail">
+									    					<img src="/resources/img/newvision-pf3.png" alt="Image" style="width:50%;">
+									    					<img src="/resources/img/newvision-pf4.png" alt="Image" style="width:50%;">
+								    					</div>
+								    				</ol>
+								    			</div>
 								    		</div>
 								    		<div class="col-lg-6">
 								    			<div class="portfolio-contents-list" style="margin-top:0;">
+								    				<i class="fas fa-code portfolio-icon"></i>
 									    			<p class="portfolio-text font-kr">Project Issues(developer's)</p>
 								    			</div>
 								    			<div class="portfolio-contents-detail font-kr">
-									    			<table>
-									    				<tr>
-									    					<td>날짜 : 2021.12 ~ 2021.04</td>
-									    				</tr>
-									    				<tr>
-									    					<td>
-									    						<a href="https://nveng.co.kr">
-									    							링크 : nveng.co.kr
-									    						</a>
-									    					</td>
-									    				</tr>
-									    				<tr>
-									    					<td>
-									    						<a href="https://github.com/eastgermkim/newvVisionEng">
-									    							github : github.com/eastgermkim/newvVisionEng
-									    						</a>
-									    					</td>
-									    				</tr>
-									    			</table>
-								    			</div>
-								    			<div class="portfolio-contents-list">
-									    			<i class="fas fa-info-circle portfolio-icon"></i>
-									    			<p class="portfolio-text font-kr">배경</p>
+								    				<ol class="issues">
+								    					<li class="issue">보도자료 크롤링</li>
+								    					<p><strong class="solution">SOLUTION)</strong>
+								    					 보도자료를 크롤링하여 사이트 관리자가 별도의 등록하지 않아도 자동으로 등록되도록 설계하고 코딩하였지만, 사용자가 원하지 않는 자료까지 크롤링 될 수 있으며
+								    					 이를 예외 처리 한다고 하더라도 범주가 너무 크다고 판단하여 등록 게시판을 만들게 되었다. 또한 기사마다 저작권이 있으며 해당 사이트에서 봐야만하는 경우가 있기 때문에
+								    					 기사링크가 첨부된 보도자료 클릭 시 해당 사이트로 이동되도록 했다.
+								    					 <br>
+								    					 초기 설계를 꼼꼼하게 하고 사용자 입장에서 한번 더 생각해야 시간적 손실을 줄일 수 있다는걸 알게되었고
+								    					 크롤링을 쓸 땐 더욱 객관적인 데이터를 대상으로 해야겠다고 생각하는 계기가 되었다. 
+								    					</p>
+								    					<div class="issue-detail">
+									    					<img src="/resources/img/newvision-pf5.png" alt="Image" style="width:50%;">
+									    					<img src="/resources/img/newvision-pf6.png" alt="Image" style="width:50%;">
+								    					</div>
+								    					<li class="issue">문의 페이지 mail 설정</li>
+								    					<p><strong class="solution">SOLUTION)</strong>
+								    					SMTP 설정과 java mail 라이브러리를 통해 메일을 발송하였고 악의적, 반복적 그리고 과다 사용을 막기 위해 reCAPTCHA v2를 적용했다.
+								    					회사 메일의 도메인을 회사명으로 바꿔 달라는 요구사항이 있었다.
+								    					회사명 도메인의 메일주소를 설정하고 해당 메일로 바로 보내게 된다면 검증되지 않은 메일 주소 이기 때문에  whiteDomain 등록 및 특정 ip를 설정했지만
+								    					기존에 한 아이디 메일을 통한 자료보관, 문의 메일 수신등 업무를 진행하였기 때문에 별도의 사내 메일 시스템을 만들 필요 없이 카페24 웹메일을 외부메일로 읽어오는 방법을 선택했다.
+								    					</p>
+								    					<div class="issue-detail">
+									    					<img src="/resources/img/newvision-pf7.png" alt="Image" style="width:30%;">
+									    					<img src="/resources/img/newvision-pf8.png" alt="Image" style="width:50%; height:fit-content;">
+								    					</div>
+								    				</ol>
 								    			</div>
 								    		</div>
 								    	</div>
